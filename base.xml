@@ -13,14 +13,15 @@
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozilla" fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+  <remote name="github" fetch="git://github.com/" />
 
   <!--
     B2G repositories for all targets
     -->
 
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master" />
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master" />
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
+  <project name="gaia" path="gaia" remote="b2g" revision="v2.5" />
+  <project name="gecko-b2g" path="gecko" remote="b2g" revision="b2g44_v2_5" />
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.5" />
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
   <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
   <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="master"/>

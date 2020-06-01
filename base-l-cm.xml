@@ -2,7 +2,7 @@
 <manifest>
 
   <include name="base-l.xml"/>
-  <include name="locales.xml"/>
+  <!--include name="locales.xml" /commented cause of unreachable host-->
 
   <remote name="GitHub"
           fetch="git://github.com/"
